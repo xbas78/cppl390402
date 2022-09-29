@@ -13,7 +13,7 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(cppl390402 main.cpp)
+add_executable(cppl390402 main.cpp mainwindow.h mainwindow.cpp)
 
 target_link_libraries(cppl390402
         Qt5::Core
